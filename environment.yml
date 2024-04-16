@@ -1,0 +1,15 @@
+name: gwt
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - matplotlib-base=3.8.0
+  - networkx=3.3
+  - numpy-base=1.26.4
+  - python=3.10.14
+  - pip:
+    - jupyter==1.0.0
+    - pygsp==0.5.1
+    - scikit-learn==1.3.0
+    - scipy==1.12.0
+
